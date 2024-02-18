@@ -1,0 +1,13 @@
+Apa itu merge conflict dan cara menanggulanginya?
+
+merge conflict terjadi saat adanya konflik commit dalam proses merging sebuah branch. Umumnya, perubahan yang terjadi berada di baris kode berbeda atau file berbeda sehingga proses merge menjadi simple untuk komputer, tetapi ketika terjadi perubahan di baris kode atau file yang sama atau terjadi penghapusan instansi file, maka akan terjadi merge conflict dan git memerlukan bantuan user untuk resolve merge conflict dengan memilih merge yang diinginkan.
+
+resolve conflict via github:
+- pada repository click "pull request"
+- pilih pull request yang memiliki merge conflict
+- scroll ke bawah sampe menemukan tombol "Resolve Conflict"
+- pilih apakah ingin menyimpan perubahan di branch anda, branch orang lain, atau membuat perubahan baru yang menggunakann kedua perubahan. Hapus conflict markers <<<<<<<, =======, >>>>>>> dan buat perubahan di merge final.
+- lanjut untuk merge conflict yang lain
+- Setelah semua di resolve, klik tombol "Mark as resolved"
+- Setelah semua conflict telah di resolve, klik tombol "Commit Merge".
+- Terakhir, klik "Merge Pull Request" ketika ingin merge pull request.

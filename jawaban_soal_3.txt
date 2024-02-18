@@ -1,0 +1,5 @@
+Apa itu fork dan pull request github?
+
+sebuah fork di github pada dasarnya merupakan sebuah repository baru yang mengcopy code dan visibility setting dengan original "upstream" repository. Tujuan sebuah fork untuk membuat perubahan atau menambahkan ide baru sebelom di pull request ke upstream repository, terutama pada open source project dimana user tidak memiliki akses pada upstream repository. Ketika melakukan perubahan, user dapat submit pull request pada project owner untuk nantinya direview.
+
+Pull request sederhananya sebuah proposal untuk merge perubahan dari suatu branch ke yang lain. Pada saat membuat pull request, collaborator akan review dan berdiskusi perubahan sebelom mengintegrasikan perubahan di main codebase.

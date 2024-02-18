@@ -1,0 +1,9 @@
+Apa itu git rebase?
+
+Git rebase merupakan sebuah command pada git yang mengintegrasikan perubahan dari suatu branch ke yang lain dengan memindahkan atau menggabungkan commit history pada sebuah base commit baru.
+
+command rebase sebagai berikut:
+
+git rebase <base_branch>
+
+command ini mengambil commit pada branch yang sedang dibuka dan dipindah diatas base branch pada command. Tujuannya agar commit history menjadi lebih linear sehingga dapat memasukkan perubahan dari branch lain sambil menjaga kelinearan branch.
